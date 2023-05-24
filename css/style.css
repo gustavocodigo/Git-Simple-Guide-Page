@@ -23,17 +23,23 @@ section {
     max-width: 760px;
     margin: auto;
     grid-template-rows: 130px auto;
-    background-color: white;
+    background-color: rgb(70, 69, 69);
+    padding: 0 2px;
 }
 
 
-section div {
+section .card {
     padding: 20px;
-    border: 2px solid rgb(20, 20, 20);
+    border: 2px solid rgb(70, 69, 69);
+    background-color: aliceblue;
 }
 
 #header {
     grid-area: header;
     background-color: rgb(49, 49, 49);
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
