@@ -1,0 +1,36 @@
+:root{
+    --bgcolor: rgb(225, 231, 235);
+}
+
+
+body {
+    background-color: var(--bgcolor);
+    color: black;
+    font-size: 13px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    grid-template-areas: "header header" "basics branching" "changes sync";
+    height: calc( 100vh - 160px ) ;
+    max-height: 700px;
+    max-width: 760px;
+    margin: auto;
+    grid-template-rows: 130px auto;
+}
+
+
+section div {
+    padding: 20px;
+    border: 2px solid rgb(20, 20, 20);
+}
+
+#header {
+    grid-area: header;
+    background-color: rgb(240, 145, 81);
+}
