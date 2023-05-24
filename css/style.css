@@ -19,7 +19,7 @@ section {
     display: grid;
     grid-template-areas: "header header" "basics branching" "changes sync";
    
-    max-height: 700px;
+    max-height: 2000px;
     max-width: 760px;
     margin: auto;
     grid-template-rows: 130px auto;
