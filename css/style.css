@@ -28,6 +28,19 @@ section {
 }
 
 
+@media screen and (max-width: 768px) {
+    section {
+        grid-template-areas: 
+            "header"
+            "basics"
+            "branching"
+            "changes"
+            "sync";
+        grid-template-rows: auto; /* Ajuste a altura das linhas conforme necessário */
+    }
+}
+
+
 section .card {
     padding: 20px;
     border: 2px solid rgb(70, 69, 69);
